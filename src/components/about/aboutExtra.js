@@ -17,7 +17,7 @@ const AboutExtra = () => {
           remaining essentially unchanged. It was popularised in the 1960s with
           the release of Letraset sheets containing Lorem Ipsum passages, and
           more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          including versions of Lorem you.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-start lg:justify-start">
           <div className="rounded-md">

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Holo - Gatsby Starter`,
+    title: `PT. Jati Padi`,
     description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
     siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    author: `Izmi<portfolioizmi.my.id>`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -79,13 +79,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
+        name: `Jati Padi Groups`,
         short_name: `Holo`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
+        icon: `src/images/Logo-jatipadi.jpg`, // This path is relative to the root of the site.
       },
     },
     {

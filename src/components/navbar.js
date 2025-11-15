@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
-    <nav className="bg-transparent">
+    <nav className="fixed top-0 w-full bg-[#FFF6C4] shadow-sm border-b-4 border-yellow z-50">
+  {/* <div className="container mx-auto flex justify-between items-center py-4 px-4"></div> */}
+    {/* <nav className="bg-transparent"> */}
       <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
@@ -12,8 +14,8 @@ const Navbar = () => {
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
-                HOLO
+              <span className="text-gradient bg-gradient-to-r from-yellow to-cream font-semibold">
+                PT. Jati Padi
               </span>
             </a>
             <div className="hidden md:block">
@@ -52,7 +54,7 @@ const Navbar = () => {
                 <div className="items-center">
                   <a
                     href="tel:#"
-                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-white border-black  hover:bg-purple"
+                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-brown border-black  hover:bg-purple"
                   >
                     Call Us Now
                   </a>
@@ -129,6 +131,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+    // </nav>
   )
 }
 

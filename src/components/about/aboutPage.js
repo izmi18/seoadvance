@@ -59,50 +59,65 @@ const WorkPage = () => {
       {/* ====== PERFORMANCE SECTION (Profil Perusahaan) ====== */}
       <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-        {/* Text Section */}
-        <Fade left>
-          <div>
-            <h2 className="text-black text-4xl font-extrabold tracking-wide uppercase">
-              PT Jati Padi Groups
-            </h2>
+  {/* Text Section */}
+  <Fade left>
+    <div>
+      <h2 className="text-black text-4xl font-extrabold tracking-wide uppercase">
+        PT Jati Padi Groups
+      </h2>
 
-            <h3 className="text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-brown to-yellow text-transparent bg-clip-text mt-4 leading-tight">
-              Membangun Layanan Terpercaya Berbasis Inovasi
-            </h3>
+      <h3 className="text-5xl lg:text-6xl font-extrabold 
+        bg-gradient-to-r from-brown to-yellow 
+        text-transparent bg-clip-text mt-4 leading-tight">
+        Membangun Layanan Terpercaya Berbasis Inovasi
+      </h3>
 
-            <p className="text-black opacity-70 mt-6 text-lg leading-relaxed">
-              PT Jati Padi Groups adalah perusahaan yang bergerak di bidang
-              pengelolaan air bersih, energi terbarukan, layanan perizinan,
-              serta pengelolaan gas. Dengan pengalaman yang matang, kami
-              berkomitmen menghadirkan layanan profesional, efisien, dan
-              berorientasi pada kebutuhan masyarakat.  
-              <br /><br />
-              Melalui integritas dan inovasi, Jati Padi terus berkembang sebagai
-              perusahaan yang menyediakan solusi berkelanjutan dan ramah
-              lingkungan bagi berbagai sektor di DKI Jakarta dan sekitarnya.
-            </p>
-          </div>
-        </Fade>
+      <p className="text-black opacity-70 mt-6 text-lg leading-relaxed">
+        PT Jati Padi Groups adalah perusahaan yang bergerak di bidang
+        pengelolaan air bersih, energi terbarukan, layanan perizinan,
+        serta pengelolaan gas. Dengan pengalaman yang matang, kami
+        berkomitmen menghadirkan layanan profesional, efisien, dan
+        berorientasi pada kebutuhan masyarakat.  
+        <br /><br />
+        Melalui integritas dan inovasi, Jati Padi terus berkembang sebagai
+        perusahaan yang menyediakan solusi berkelanjutan dan ramah
+        lingkungan bagi berbagai sektor di DKI Jakarta dan sekitarnya.
+      </p>
+    </div>
+  </Fade>
 
-        Image / Visual Section
-       <Fade direction="right" triggerOnce>
-  <div className="group w-full max-w-md mx-auto 
-    rounded-2xl overflow-hidden shadow-2xl 
-    transition-all duration-700 transform 
-    hover:scale-105 hover:rotate-1 hover:shadow-yellow-300/40">
+  {/* Image / Visual Section */}
+  <Fade right triggerOnce>
+    <div className="relative w-full max-w-md mx-auto 
+      group perspective">
 
-    {/* Glow belakang ikut bergerak */}
-    <div className="absolute inset-0 rounded-2xl bg-yellow-300/20 
-      opacity-0 group-hover:opacity-20 blur-xl transition-all duration-700 -z-10"></div>
+      {/* Parallax floating glow */}
+      <div className="absolute inset-0 rounded-3xl bg-yellow-300/25 
+        blur-2xl opacity-0 group-hover:opacity-30 
+        transition-all duration-700 group-hover:scale-110"></div>
 
-    <img
-      src="/img/Logo-jatipadi.jpg"
-      alt="Jati Padi"
-      className="w-full h-full object-cover transition-all duration-700"
-    />
-  </div>
-</Fade>
+      {/* Interactive Tilt Card */}
+      <div className="relative bg-white rounded-3xl overflow-hidden 
+        shadow-2xl transition-all duration-700 
+        transform group-hover:rotate-1 group-hover:-translate-y-2 
+        group-hover:shadow-yellow-300/50
+        hover:scale-[1.03] p-2">
 
+        {/* Floating border animation */}
+        <div className="absolute inset-0 rounded-3xl border-2 
+          border-transparent group-hover:border-yellow-400 
+          transition-all duration-700"></div>
+
+        <img
+          src="/img/Logo-jatipadi.jpg"
+          alt="Jati Padi"
+          className="w-full h-full rounded-2xl object-cover 
+            transition-all duration-700 group-hover:scale-105 
+            group-hover:rotate-[1deg]"
+        />
+      </div>
+    </div>
+  </Fade>
       </div>
 
     </div>

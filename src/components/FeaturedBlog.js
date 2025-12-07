@@ -17,7 +17,7 @@ const FeaturedBlog = () => {
           {/* Gambar besar di bagian atas */}
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <img
-              src="/img/air.jpg"
+              src="/img/air-bersih2.jpg"
               alt="Air"
               className="w-full h-80 object-cover rounded-lg shadow-md"
             />
@@ -48,8 +48,8 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12 shadow-md">
               <img
-                src="/img/cafe.jpeg"
-                alt="Air 2"
+                src="/img/cafe.jpg"
+                alt="cafe"
                 className="w-full h-72 object-cover rounded-lg mb-6"
               />
               <a
@@ -77,7 +77,7 @@ const FeaturedBlog = () => {
 
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12 shadow-md">
               <img
-                src="/img/manajemen-proyek-konstruksi.jpg"
+                src="/img/konstruksi.jpg"
                 alt="Air 3"
                 className="w-full h-72 object-cover rounded-lg mb-6"
               />

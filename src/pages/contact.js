@@ -15,10 +15,10 @@ const Contact = () => {
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
 
-      <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
+      <div className="max-w-7xl mx-auto mt-16 flex text-white xxs:flex-col sm:flex-row pt-11">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+          <div className="bg-brown opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-3xl text-white">CONTACT PT.JATIPADI</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Gatsby Theme
             </h2>
@@ -193,7 +193,7 @@ const Contact = () => {
               </div>
               <label>
                 <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
+                  className="mt-5 w-full bg-yellow bg-opacity-70 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
                   rows="5"
                   placeholder="How can we help you?"
                   type="text"

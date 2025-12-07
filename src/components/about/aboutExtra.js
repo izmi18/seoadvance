@@ -1,51 +1,79 @@
-import React from "react"
+import React from "react";
 
 const AboutExtra = () => {
   return (
-    <div className="max-w-7xl mx-auto mt-10">
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">GATSBY FRAMEWORK</h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Start building amazing web experiences
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem you.
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-start lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
-            >
-              CONTACT US
-              <svg
-                className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
+    <div className="max-w-7xl mx-auto mt-16 px-6">
+      {/* SECTION TITLE */}
+      <h2 className="text-black text-3xl sm:text-4xl font-semibold mb-6">
+        MEMBER OF JATIPADI GROUPS
+      </h2>
+
+      {/* SUBTITLE GRADIENT */}
+      <h3
+        className="
+          font-bold 
+          bg-gradient-to-r from-brown to-yellow
+          bg-clip-text text-transparent
+          text-3xl xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl
+          leading-tight
+          mb-6
+        "
+      >
+        Empowering, Sustainability, Inspiring Growth
+      </h3>
+
+      {/* DESCRIPTION PARAGRAPH */}
+      <p className="text-black opacity-70 font-normal 
+        text-xs sm:text-sm md:text-base lg:text-lg 
+        leading-relaxed max-w-3xl">
+        Jatipadi Groups adalah holding company yang membawahi sejumlah unit usaha strategis dengan fokus pada pelayanan publik dan pengembangan masyarakat. Dengan prinsip Empowering, Sustainability, Inspiring Growth, kami berkomitmen menghadirkan layanan yang berkualitas dan berdampak.
+
+        PSS
+        Bergerak di bidang jasa operasional dan pelayanan pendukung.
+
+        PT Jatimetana Energi
+        Penyedia layanan gas dan air bersih yang aman, terjangkau, dan berkelanjutan.
+
+        PT Tahtamas Raya
+        Mendukung pemberdayaan UMKM dan menyediakan layanan perizinan terpadu.
+
+        Melalui kolaborasi ketiga unit usaha ini, Jatipadi Groups terus berupaya menjadi mitra terpercaya dalam memberikan solusi yang efektif dan berkelanjutan bagi masyarakat.
+      </p>
+
+      {/* CTA BUTTON */}
+      <div className="mt-10">
+        <a
+          href="/contact/"
+          className="
+            inline-flex items-center justify-center
+            px-10 py-3 rounded-md
+            text-white bg-brown border border-yellow
+            hover:bg-transparent hover:text-brown 
+            transition-all duration-300
+            font-medium text-sm sm:text-base md:text-lg
+            shadow-md hover:shadow-lg
+          "
+        >
+          CONTACT US
+          <svg
+            className="w-4 h-4 ml-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
       </div>
     </div>
-  )
-}
-export default AboutExtra
+  );
+};
+
+export default AboutExtra;

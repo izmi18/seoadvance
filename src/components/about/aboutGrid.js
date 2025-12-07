@@ -5,16 +5,16 @@ const AboutGrid = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 my-20 grid grid-cols-3 gap-16 justify-items-center xxs:grid-cols-1 sm:grid-cols-3">
       <AboutTeamCard
-        imgSrc="https://i.postimg.cc/HWhyyLNH/Holographic-Liquid3.webp"
-        position="Holographic Liquid"
+        imgSrc="../img/pssnew.png"
+        position="PSS"
       ></AboutTeamCard>
       <AboutTeamCard
-        imgSrc="https://i.postimg.cc/WbBzjWWc/Holographic-Liquid2.webp"
-        position="Holographic Liquid"
+        imgSrc="../img/JatiMetanaEnergi.png"
+        position="PT.JatiMetanaEnergi"
       ></AboutTeamCard>
       <AboutTeamCard
-        imgSrc="https://i.postimg.cc/907FTc4F/Holographic-Liquid1.webp"
-        position="Holographic Liquid"
+        imgSrc="../img/TahtaMasRaya.png"
+        position="PT.TahtaMasRaya"
       ></AboutTeamCard>
     </div>
   )

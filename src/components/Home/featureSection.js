@@ -132,7 +132,7 @@ const FeatureSection = () => {
                 href="tel:#"
                 className="transition-all duration-500 ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-brown hover:text-yellow border border-yellow hover:bg-transparent md:text-lg md:px-10"
               >
-                Call Us Now
+                Contact Us
               </a>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -140,7 +140,7 @@ const FeatureSection = () => {
                 href="/gallery"
                 className="transition-all duration-500 ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-yellow text-base font-medium rounded-md text-yellow hover:text-brown bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
               >
-                View Gallery
+                Layanan Kami
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -198,25 +198,56 @@ const FeatureSection = () => {
     </Fade>
 
     {/* === KOTAK 2: START BUILDING === */}
-    <Fade direction="right" triggerOnce>
-      <div className="w-full lg:w-1/2 bg-cream p-8 rounded-xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
-        <h2 className="text-white text-4xl font-semibold mb-4">
-          Start building amazing web experiences
-        </h2>
-        <p className="text-white opacity-80 leading-relaxed">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s
-          with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </Fade>
+   <Fade direction="right" triggerOnce>
+  <div className="w-full lg:w-1/2 bg-cream p-8 rounded-xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+    
+    {/* Badge */}
+    <span className="inline-block bg-white/20 text-white text-sm px-4 py-1 rounded-full mb-4">
+      📍 Kantor Pusat
+    </span>
 
+    {/* Title */}
+    <h2 className="text-white text-4xl font-bold mb-4 leading-tight">
+      Solusi Terpercaya <br /> untuk Layanan Anda
+    </h2>
+
+    {/* Description */}
+    <p className="text-white/90 leading-relaxed mb-6">
+      PT Jati Padi berkomitmen memberikan layanan yang cepat, transparan,
+      dan profesional di bidang air bersih, gas, serta perizinan usaha.
+      Kami hadir untuk mendukung kebutuhan bisnis dan masyarakat secara berkelanjutan.
+    </p>
+
+    {/* Highlight points */}
+    <ul className="space-y-3 mb-8">
+      <li className="flex items-center text-white">
+        <span className="mr-3">✔</span> Pelayanan cepat & responsif
+      </li>
+      <li className="flex items-center text-white">
+        <span className="mr-3">✔</span> Legal & terpercaya
+      </li>
+      <li className="flex items-center text-white">
+        <span className="mr-3">✔</span> Tim profesional & berpengalaman
+      </li>
+    </ul>
+
+    {/* CTA */}
+    <div className="flex flex-wrap gap-4">
+      <a
+        href="#contact"
+         className="border border-white text-white px-6 py-3 rounded-lg hover:bg-yellow hover:text-brown transition"
+      >
+        Hubungi Kami
+      </a>
+      <a
+        href="#services"
+        className="border border-white text-white px-6 py-3 rounded-lg hover:bg-yellow hover:text-brown transition"
+      >
+        Lihat Layanan
+      </a>
+    </div>
+  </div>
+</Fade>
   </div>
 </Fade>
 
@@ -331,21 +362,14 @@ const FeatureSection = () => {
           Empowering, Sustainability, Inspiring Growth
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          PT Jati Padi hadir sebagai mitra terpercaya dalam menyediakan solusi air bersih, gas, dan layanan perizinan yang berkelanjutan. 
+          Kami memberdayakan masyarakat dan pelaku usaha melalui layanan yang transparan, efisien, dan bertanggung jawab terhadap lingkungan. Dengan komitmen pada inovasi dan kualitas, kami terus mendorong pertumbuhan yang berkelanjutan untuk masa depan yang lebih baik.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-brown hover:text-purple border border-brown hover:bg-yellow md:text-lg md:px-10"
             >
               Send Enquiry
             </a>

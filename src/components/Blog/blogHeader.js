@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade"
 const BlogHeader = ({ post }) => {
   const image = getImage(post.node.frontmatter.featuredimage)
   return (
-    <div className="max-w-7xl xxs:mx-4 sm:mx-auto mt-10">
+    <div className="max-w-7xl xxs:mx-4 sm:mx-auto mt-10 pt-10">
       <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row mb-5">
           <div className="max-h-80 w-11/12 xxs:ml-0 xxs:mr-0 sm:ml-5 sm:mr-5 xxs:mt-5 xxs:mb-5 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl lg:m-5 xxs:w-full xs:w-full sm:w-full lg:w-full">
@@ -16,11 +16,11 @@ const BlogHeader = ({ post }) => {
                 textDecoration: "none",
               }}
             >
-              <h1 className="text-white text-2xl font-simibold">
+              <h1 className="text-brown text-2xl font-semibold">
                 {post.node.frontmatter.title}
               </h1>
             </Link>
-            <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
+            <p className="text-lg mt-4 text-brown opacity-70 xxs:text-sm sm:text-lg">
               {post.node.frontmatter.description}
             </p>
           </div>

@@ -14,7 +14,8 @@ const Blog = ({ data }) => {
     <Layout>
       <Seo
         title="PT.JatiPadi - Blog"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        description="PT Jati Padi lahir sebagai tanggapan terhadap kebutuhan yang berkembang pesat akan layanan perizinan yang efisien dan inovatif. 
+             PT Jatipadi menyediakan solusi untuk mempermudah dan mempercepat proses perizinan serta membantu penyedian lahan aset-aset milik pemda DKI Jakafrta maupun private untuk kegiatan bisnis client di wilayah DKI Jakarta."
       ></Seo>
       <BlogHeader post={HeaderPost} />
       <BlogsContainer data={otherPosts} />

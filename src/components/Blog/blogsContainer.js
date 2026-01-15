@@ -19,7 +19,7 @@ const BlogsContainer = ({ data }) => {
   // const image = getImage(post.node.frontmatter.featuredimage)
 
   return (
-    <div className="max-w-7xl mx-auto mt-10 px-8 text-black">
+    <div className="max-w-7xl mx-auto mt-14 px-8 text-black pt-16">
       <Fade bottom cascade>
         <div className="grid grid-cols-3 gap-4 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((blog, i) => (
@@ -52,7 +52,7 @@ const BlogsContainer = ({ data }) => {
                     color: "black",
                   }}
                 >
-                  <h1 className="text-2xl font-simibold mt-2 mb-4">
+                  <h1 className="text-2xl font-semibold mt-2 mb-4">
                     {blog.title}
                   </h1>
                 </Link>

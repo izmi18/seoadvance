@@ -13,12 +13,14 @@ const IndexPage = () => (
     <Layout>
       <Seo
         title="JatiPadi Groups"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        description="PT Jati Padi berkomitmen memberikan layanan yang cepat, transparan,
+      dan profesional di bidang air bersih, gas, serta perizinan usaha.
+      Kami hadir untuk mendukung kebutuhan bisnis dan masyarakat secara berkelanjutan"
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>
       <FeaturedBlog></FeaturedBlog>
-      <Testimonial></Testimonial>
+      {/* <Testimonial></Testimonial> */}
     </Layout>
   </div>
 )
